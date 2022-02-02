@@ -1,0 +1,1 @@
+select * from "blocks" where ("attributes"->'delegate'->>'voteBalance')::int = ? order by "height" desc

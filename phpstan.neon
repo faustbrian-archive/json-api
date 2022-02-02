@@ -1,0 +1,20 @@
+parameters:
+    paths:
+        - app
+    level: 8
+    ignoreErrors:
+        # Framework & Third-Parties
+        - '#but return statement is missing#'
+        - '#Dynamic call to static method#'
+        - '#empty#'
+        - '#Expression#'
+        - '#is not allowed to extend#'
+        - '#jsonPaginate#'
+        - '#nullable return type declaration#'
+        - '#Short ternary operator is not allowed#'
+        - '#with a nullable type declaration#'
+        - '#with null as default value#'
+        # FIXME
+        - '#\$property#'
+        - '#\$asJson#'
+    checkMissingIterableValueType: false
